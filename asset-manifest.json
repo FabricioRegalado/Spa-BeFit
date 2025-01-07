@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Spa-BeFit/static/css/main.6028be1d.css",
-    "main.js": "/Spa-BeFit/static/js/main.ed53129e.js",
+    "main.js": "/Spa-BeFit/static/js/main.6347cfdc.js",
     "static/js/488.4d401a63.chunk.js": "/Spa-BeFit/static/js/488.4d401a63.chunk.js",
     "static/media/logo.jpg": "/Spa-BeFit/static/media/logo.2fad0c785df014281cfe.jpg",
     "index.html": "/Spa-BeFit/index.html",
     "main.6028be1d.css.map": "/Spa-BeFit/static/css/main.6028be1d.css.map",
-    "main.ed53129e.js.map": "/Spa-BeFit/static/js/main.ed53129e.js.map",
+    "main.6347cfdc.js.map": "/Spa-BeFit/static/js/main.6347cfdc.js.map",
     "488.4d401a63.chunk.js.map": "/Spa-BeFit/static/js/488.4d401a63.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6028be1d.css",
-    "static/js/main.ed53129e.js"
+    "static/js/main.6347cfdc.js"
   ]
 }
