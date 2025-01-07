@@ -103,7 +103,7 @@ const ProductCatalog = () => {
             viewport={{ once: true }}
           >
             <motion.img
-              src={`${process.env.PUBLIC_URL}/images/${product.img}`}
+              src={`${process.env.PUBLIC_URL}/img/${product.img}`}
               alt={product.name}
               className="w-full h-48 object-cover rounded-lg mb-4"
               whileHover={{ scale: 1.1 }}
