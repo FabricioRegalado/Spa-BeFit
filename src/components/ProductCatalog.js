@@ -8,7 +8,7 @@ const products = [
     name: "Proteína Whey", 
     price: "$50", 
     category: "Proteina", 
-    img: "/img/proteina.jpg", 
+    img: "proteina.jpg", 
     description: "Aumenta tu masa muscular con la mejor proteína de suero." 
   },
   { 
@@ -16,7 +16,7 @@ const products = [
     name: "Creatina Monohidrato", 
     price: "$30", 
     category: "Creatina", 
-    img: "/img/creatina.jpg", 
+    img: "creatina.jpg", 
     description: "Mejora tu rendimiento y fuerza en cada entrenamiento." 
   },
   { 
@@ -24,7 +24,7 @@ const products = [
     name: "BCAA Recovery", 
     price: "$25", 
     category: "BCAA", 
-    img: "/img/bcaa.jpg", 
+    img: "bcaa.jpg", 
     description: "Optimiza la recuperación y reduce la fatiga muscular." 
   },
   { 
@@ -32,7 +32,7 @@ const products = [
     name: "Omega 3", 
     price: "$20", 
     category: "Omega", 
-    img: "/img/omega3.jpg", 
+    img: "omega3.jpg", 
     description: "Cuida tu salud cardiovascular con Omega 3 puro." 
   },
   { 
@@ -40,7 +40,7 @@ const products = [
     name: "Pre Workout", 
     price: "$35", 
     category: "PreWork", 
-    img: "/img/prework.jpg", 
+    img: "prework.jpg", 
     description: "Eleva tu energía y enfoque para entrenar al máximo." 
   },
 ];
@@ -103,7 +103,7 @@ const ProductCatalog = () => {
             viewport={{ once: true }}
           >
             <motion.img
-              src={product.img}
+              src={`${process.env.PUBLIC_URL}/images/${product.img}`}
               alt={product.name}
               className="w-full h-48 object-cover rounded-lg mb-4"
               whileHover={{ scale: 1.1 }}
